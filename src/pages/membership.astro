@@ -1,0 +1,39 @@
+---
+import Base from "../layouts/Base.astro";
+import { members, withBase } from "../lib/site";
+---
+
+<Base title="Членство">
+  <section class="wrap page-hero">
+    <div class="kicker">Ассоциация</div>
+    <h1>Членство может быть личным и коллективным</h1>
+    <p class="muted">Достаточно представить себя и захотеть участвовать в работе АФР.</p>
+  </section>
+  <section class="section wrap">
+    <h2>Действительные члены</h2>
+    <div class="grid-2">
+      {
+        members.full.map((person) =>
+          person.slug ? (
+            <a class="person-card" href={withBase(`/articles/${person.slug}`)}>
+              <strong>{person.name}</strong>
+              <div class="meta">{person.city}</div>
+              <p>{person.role}</p>
+            </a>
+          ) : (
+            <div class="person-card">
+              <strong>{person.name}</strong>
+              <div class="meta">{person.city}</div>
+              <p>{person.role}</p>
+            </div>
+          )
+        )
+      }
+    </div>
+    <h2 style="margin-top:36px">Базовые имена</h2>
+    <ul>
+      {members.names.map((name) => <li>{name}</li>)}
+    </ul>
+    <p class="muted">Полный список — в разделе персоналий и на карте сайта.</p>
+  </section>
+</Base>

@@ -1,0 +1,51 @@
+---
+import fs from "node:fs";
+import path from "node:path";
+import Base from "../../layouts/Base.astro";
+import imported from "../../data/imported.json";
+import catalog from "../../data/catalog.json";
+import { articleSlug, rewriteLegacyPaths, withBase } from "../../lib/site";
+
+type ImportedItem = (typeof imported)[number];
+
+export function getStaticPaths() {
+  const extra = [
+    "englishversion/ENGLISH/1",
+    "englishversion/ENGLISH/2",
+    "englishversion/ENGLISH/4",
+  ];
+  const slugs = new Set(imported.map((item) => item.slug).concat(extra));
+  return [...slugs].map((slug) => ({ params: { slug } }));
+}
+
+const slug = Astro.params.slug ?? "";
+const record = imported.find((item: ImportedItem) => item.slug === slug);
+const catalogItem = catalog.sections
+  .flatMap((section) => section.items.map((item) => ({ ...item, section: section.title, sectionSlug: section.slug })))
+  .find((item) => articleSlug(item.href) === slug);
+const title = record?.title || catalogItem?.title || slug.split("/").at(-1) || "Статья";
+const filePath = record?.file
+  ? path.join(process.cwd(), record.file)
+  : path.join(process.cwd(), "src/content/articles", `${slug}.html`);
+const html = rewriteLegacyPaths(
+  fs.existsSync(filePath)
+    ? fs.readFileSync(filePath, "utf8")
+    : "<p>Текст ещё не импортирован. Откройте оригинал ниже.</p>"
+);
+const original = record?.original || catalogItem?.original || `http://www.fishka.spb.ru/articles/${slug}.html`;
+---
+
+<Base title={title}>
+  <section class="wrap page-hero">
+    <div class="kicker">{catalogItem?.section ?? "Архив"}</div>
+    <h1>{title}</h1>
+  </section>
+  <section class="wrap article-layout">
+    <aside class="side-meta">
+      {catalogItem && <p><a href={withBase(`/archive/${catalogItem.sectionSlug}`)}>← {catalogItem.section}</a></p>}
+      <p><a href={original}>Оригинал на fishka.spb.ru</a></p>
+      <p class="tiny">Текст и иллюстрации из дампа Beget. Картинки: `/new/legacy/…`.</p>
+    </aside>
+    <article class="prose legacy" set:html={html} />
+  </section>
+</Base>

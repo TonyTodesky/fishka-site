@@ -1,0 +1,19 @@
+
+# local tooling
+*.log
+*.pem
+*.sql
+.DS_Store
+.astro/
+.env
+.env.*
+.tools/
+.tools/bin/
+archive/
+credentials*
+dist/
+fishka-new-deploy.zip
+id_rsa*
+legacy/
+node_modules/
+public/legacy

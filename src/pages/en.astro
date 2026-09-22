@@ -1,0 +1,31 @@
+---
+import Base from "../layouts/Base.astro";
+import { withBase } from "../lib/site";
+---
+
+<Base title="English">
+  <section class="wrap page-hero">
+    <div class="kicker">English desk</div>
+    <h1>Fishka.Ru: combinatorial games from Saint Petersburg</h1>
+    <p class="lede" style="color: var(--ink-soft)">
+      Research archive on chess, checkers, Go, puzzles and original board games.
+      Founded on 1 January 2003 by game designer Valery Trubicyn.
+    </p>
+  </section>
+  <section class="section wrap">
+    <div class="cards">
+      <a class="article-card" href={withBase("/articles/englishversion/ENGLISH/1")}>
+        <small>Game</small>
+        <h2>HEXOFEN — hexagonal chess</h2>
+      </a>
+      <a class="article-card" href={withBase("/articles/englishversion/ENGLISH/2")}>
+        <small>Game</small>
+        <h2>Neva Checkers — checkers for four players</h2>
+      </a>
+      <a class="article-card" href={withBase("/articles/englishversion/ENGLISH/4")}>
+        <small>Essay</small>
+        <h2>Linder. The world of chess and the world of art</h2>
+      </a>
+    </div>
+  </section>
+</Base>

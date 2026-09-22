@@ -1,0 +1,16 @@
+{
+  "name": "fishka-site",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev --host 127.0.0.1 --port 4321",
+    "build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview --host 127.0.0.1 --port 4322",
+    "import:articles": "python3 scripts/import_articles.py",
+    "sync:legacy": "bash scripts/sync_legacy.sh"
+  },
+  "dependencies": {
+    "astro": "^5.13.8"
+  }
+}

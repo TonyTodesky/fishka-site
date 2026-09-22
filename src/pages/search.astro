@@ -1,0 +1,72 @@
+---
+import Base from "../layouts/Base.astro";
+import catalog from "../data/catalog.json";
+import { articleSlug, withBase } from "../lib/site";
+
+const index = [
+  ...catalog.news.map((item) => ({
+    title: item.title,
+    href: item.external ? item.href : withBase(`/articles/${articleSlug(item.href)}`),
+    section: "Новости",
+  })),
+  ...catalog.sections.flatMap((section) =>
+    section.items.map((item) => ({
+      title: item.title,
+      href: withBase(`/articles/${articleSlug(item.href)}`),
+      section: section.title,
+    }))
+  ),
+];
+---
+
+<Base title="Поиск">
+  <section class="wrap page-hero">
+    <div class="kicker">Поиск по каталогу</div>
+    <h1>Найти материал</h1>
+    <form id="search-form" class="search-form" action={withBase("/search")} method="get" style="margin: 18px 0; max-width: 420px; background: #fff">
+      <input id="q" type="search" name="q" placeholder="шахматы, го, Трубицын" style="color: var(--ink)" />
+      <button type="submit">Найти</button>
+    </form>
+    <p class="muted" id="search-count">Поиск идёт по названиям рубрик и статей.</p>
+  </section>
+  <section class="section wrap">
+    <div class="cards" id="results"></div>
+  </section>
+  <script is:inline define:vars={{ index }}>
+    const form = document.getElementById("search-form");
+    const input = document.getElementById("q");
+    const results = document.getElementById("results");
+    const count = document.getElementById("search-count");
+
+    function render(query) {
+      const needle = (query || "").trim().toLocaleLowerCase("ru");
+      input.value = query || "";
+      if (!needle) {
+        results.innerHTML = "";
+        count.textContent = "Поиск идёт по названиям рубрик и статей.";
+        return;
+      }
+      const hits = index.filter((item) =>
+        `${item.title} ${item.section}`.toLocaleLowerCase("ru").includes(needle)
+      );
+      count.textContent = `${hits.length} совпадений`;
+      results.innerHTML = hits
+        .map(
+          (item) =>
+            `<a class="article-card" href="${item.href}"><small>${item.section}</small><h2>${item.title}</h2></a>`
+        )
+        .join("");
+    }
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const query = input.value.trim();
+      const url = new URL(window.location.href);
+      url.searchParams.set("q", query);
+      history.replaceState({}, "", url);
+      render(query);
+    });
+
+    render(new URLSearchParams(window.location.search).get("q"));
+  </script>
+</Base>

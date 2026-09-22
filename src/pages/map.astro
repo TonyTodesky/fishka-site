@@ -1,0 +1,31 @@
+---
+import Base from "../layouts/Base.astro";
+import catalog from "../data/catalog.json";
+import { articleSlug, withBase } from "../lib/site";
+---
+
+<Base title="Карта сайта">
+  <section class="wrap page-hero">
+    <div class="kicker">Навигация</div>
+    <h1>Весь корпус на одной странице</h1>
+  </section>
+  <section class="section wrap">
+    {
+      catalog.sections.map((section) => (
+        <article style="margin-bottom: 36px">
+          <h2>
+            <a href={withBase(`/archive/${section.slug}`)}>{section.title}</a>
+          </h2>
+          <p class="muted">{section.blurb}</p>
+          <ol>
+            {section.items.map((item) => (
+              <li>
+                <a href={withBase(`/articles/${articleSlug(item.href)}`)}>{item.title}</a>
+              </li>
+            ))}
+          </ol>
+        </article>
+      ))
+    }
+  </section>
+</Base>

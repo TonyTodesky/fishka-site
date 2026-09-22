@@ -1,0 +1,27 @@
+---
+import Base from "../layouts/Base.astro";
+import catalog from "../data/catalog.json";
+import { articleSlug, withBase } from "../lib/site";
+---
+
+<Base title="Новости">
+  <section class="wrap page-hero">
+    <div class="kicker">АФР и сайт</div>
+    <h1>Что происходит вокруг архива</h1>
+  </section>
+  <section class="section wrap">
+    <div class="cards">
+      {
+        catalog.news.map((item) => {
+          const href = item.external ? item.href : withBase(`/articles/${articleSlug(item.href)}`);
+          return (
+            <a class="news-item" href={href} target={item.external ? "_blank" : undefined}>
+              <div class="meta">{item.date}</div>
+              <h2>{item.title}</h2>
+            </a>
+          );
+        })
+      }
+    </div>
+  </section>
+</Base>

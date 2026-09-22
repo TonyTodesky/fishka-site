@@ -1,0 +1,111 @@
+---
+import Base from "../layouts/Base.astro";
+import catalog from "../data/catalog.json";
+import { featuredGames, goals, withBase } from "../lib/site";
+
+const total = catalog.stats.articles;
+const news = catalog.news.slice(0, 4);
+const mosaic = ["01", "02", "03", "05", "06", "07", "08", "09", "10"];
+---
+
+<Base title="Исследовательский архив игр">
+  <section class="hero board-bg">
+    <div class="hero-mosaic" aria-hidden="true">
+      {mosaic.map((n) => <img src={withBase(`/heritage/egipt2_${n}.jpg`)} alt="" />)}
+      <img src={withBase("/heritage/bg.jpg")} alt="" />
+      <img src={withBase("/heritage/bg.jpg")} alt="" />
+    </div>
+    <div class="wrap hero-copy">
+      <div class="kicker">Ассоциация Фишка.Ру · с 01.01.2003</div>
+      <h1>Тайна шахмат и го собрана в один архив</h1>
+      <p class="lede">
+        Крупнейший в России исследовательский корпус настольных комбинационных игр:
+        шашки, шахматы, го, головоломки и игроника. Теория игровых структур,
+        история знаковых игр и авторская игротека Трубицына В.А.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href={withBase("/archive/theory")}>Читать теорию</a>
+        <a class="btn btn-ghost" href={withBase("/archive/games")}>Открыть игротеку</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap stats">
+      <div class="stat"><b>{total}</b><span>статей в новом каталоге</span></div>
+      <div class="stat"><b>9</b><span>исследовательских рубрик</span></div>
+      <div class="stat"><b>23</b><span>года непрерывной публикации</span></div>
+      <div class="stat"><b>СПб</b><span>город, где собралась Ассоциация</span></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="kicker">Рубрики</div>
+          <h2>Архив как библиотека, а не жёлтая таблица</h2>
+        </div>
+        <a href={withBase("/map")}>Полная карта сайта</a>
+      </div>
+      <div class="grid-3">
+        {
+          catalog.sections.map((section) => (
+            <a class="card" href={withBase(`/archive/${section.slug}`)}>
+              <small>{String(section.count).padStart(2, "0")} материалов</small>
+              <h3>{section.title}</h3>
+              <p class="muted">{section.blurb}</p>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="kicker">Игротека</div>
+          <h2>Игры, которых нет в салоне</h2>
+        </div>
+        <a href={withBase("/archive/games")}>Все игры</a>
+      </div>
+      <div class="grid-3">
+        {
+          featuredGames.map((game) => (
+            <a class="card game-card" href={withBase(`/articles/${game.slug}`)}>
+              <img src={game.image} alt={game.title} />
+              <h3>{game.title}</h3>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap grid-2">
+      <div>
+        <div class="kicker">Зачем существует АФР</div>
+        <h2>Не спорт ради спорта</h2>
+        <ol class="prose">
+          {goals.map((goal) => <li>{goal}</li>)}
+        </ol>
+        <p><a href={withBase("/about")}>Преамбула и цели</a></p>
+      </div>
+      <div>
+        <div class="kicker">Лента</div>
+        <h2>Последние новости</h2>
+        {
+          news.map((item) => (
+            <a class="news-item" href={item.external ? item.href : withBase(`/articles/${(item.href.split("/articles/")[1] || "").replace(/\.(html?|htm)$/i, "")}`)}>
+              <div class="meta">{item.date}</div>
+              <strong>{item.title}</strong>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,1305 @@
+{
+  "site": {
+    "name": "Фишка.Ру",
+    "domain": "www.fishka.spb.ru",
+    "since": 2003,
+    "author": "Трубицын В.А.",
+    "city": "Санкт-Петербург",
+    "tagline": "Исследовательский архив настольных комбинационных игр"
+  },
+  "sections": [
+    {
+      "slug": "people",
+      "title": "Персоналии",
+      "blurb": "Люди Ассоциации и базовые имена игроники.",
+      "count": 9,
+      "items": [
+        {
+          "title": "Гурин Ю.В.",
+          "href": "/articles/personalii/gurin/13.html",
+          "original": "http://www.fishka.spb.ru/articles/personalii/gurin/13.html",
+          "note": "(СПб) — обучающие и развивающие игры",
+          "date": null
+        },
+        {
+          "title": "Кислюк Л.У.",
+          "href": "/articles/personalii/kisluk/14.html",
+          "original": "http://www.fishka.spb.ru/articles/personalii/kisluk/14.html",
+          "note": "(Москва) — восточные шахматы (сёги, сянци, …)",
+          "date": null
+        },
+        {
+          "title": "Новиков В.И.",
+          "href": "/articles/personalii/novikov/27.html",
+          "original": "http://www.fishka.spb.ru/articles/personalii/novikov/27.html",
+          "note": "(Москва) — игротехник (маджонг), зам. руководителя АФР, администратор сайта",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А.",
+          "href": "/articles/personalii/trubicin/valeriytrubicin.html",
+          "original": "http://www.fishka.spb.ru/articles/personalii/trubicin/valeriytrubicin.html",
+          "note": "(СПб) — теоретик и изобретатель в сфере шашек, шахмат и го, модератор сайта",
+          "date": null
+        },
+        {
+          "title": "Нестеров В.Г.",
+          "href": "/articles/personalii/nesterov/Nesterov.html",
+          "original": "http://www.fishka.spb.ru/articles/personalii/nesterov/Nesterov.html",
+          "note": "(СПб) — переводчик, писатель и исследователь восточных интеллектуальных игр (го, сянци)",
+          "date": null
+        },
+        {
+          "title": "Боровиков А.Г.",
+          "href": "/articles/personalii/borovikov/borovikov.html",
+          "original": "http://www.fishka.spb.ru/articles/personalii/borovikov/borovikov.html",
+          "note": "(СПб) — отец столбовых шашек",
+          "date": null
+        },
+        {
+          "title": "Кондратов А.М.",
+          "href": "/articles/personalii/condratov/111.htm",
+          "original": "http://www.fishka.spb.ru/articles/personalii/condratov/111.htm",
+          "note": "(СПб) — человек-игра, филолог, атлантолог",
+          "date": null
+        },
+        {
+          "title": "50 лет российскому Го",
+          "href": "/articles/history/50letrosgo/508/508letrosgo.html",
+          "original": "http://www.fishka.spb.ru/articles/history/50letrosgo/508/508letrosgo.html",
+          "note": ")",
+          "date": null
+        },
+        {
+          "title": "Филатов Ю.П.",
+          "href": "/articles/personalii/filatov/124.htm",
+          "original": "http://www.fishka.spb.ru/articles/personalii/filatov/124.htm",
+          "note": "(СПб) — игротехник, изобретатель, искусствовед",
+          "date": null
+        }
+      ]
+    },
+    {
+      "slug": "history",
+      "title": "История знаковых игр",
+      "blurb": "Шахматы, шашки, го и петербургский след.",
+      "count": 52,
+      "items": [
+        {
+          "title": "Шахматы на берегах Невы.",
+          "href": "/articles/history/spb/21.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/spb/21.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Мы на выставке \"Выбираю спорт\".",
+          "href": "/articles/history/vibirausport/vibirausport.html",
+          "original": "http://www.fishka.spb.ru/articles/history/vibirausport/vibirausport.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Наша новая выставка.",
+          "href": "/articles/history/lesnaya/vistavka.html",
+          "original": "http://www.fishka.spb.ru/articles/history/lesnaya/vistavka.html",
+          "note": "// (анонс)",
+          "date": null
+        },
+        {
+          "title": "Голосуев В.М. Древняя и загадочная игра.",
+          "href": "/articles/history/golosuev/221.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/golosuev/221.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Боровиков А.Г. История столбовых шашек.",
+          "href": "/articles/history/borovikov/222.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/borovikov/222.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Досуг Рамсеса III.",
+          "href": "/articles/history/dosugramzesa/223.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/dosugramzesa/223.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Боровиков А.Г. О новых разновидностях шашек.",
+          "href": "/articles/history/novieshashki/224.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/novieshashki/224.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Носовский А.М. История пенты.",
+          "href": "/articles/history/istoriapenti/225.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/istoriapenti/225.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Носовский А.М. История рендзю.",
+          "href": "/articles/history/istoriarendzu/226.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/istoriarendzu/226.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Денис Передельский. В Азербайджане найдена древнеегипетская игра возрастом 4000 лет.",
+          "href": "/articles/history/58lunok/58.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/58lunok/58.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Филатов Ю.П. Какой дан вам дан?",
+          "href": "/articles/history/kakoydan/dan.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/kakoydan/dan.htm",
+          "note": "// ж-л «Знание – Сила» № 11, 1974.",
+          "date": null
+        },
+        {
+          "title": "Носовский А.М. История го (иго). Японские логические игры.",
+          "href": "/articles/history/istoriago/232.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/istoriago/232.htm",
+          "note": "// М, Астрель, 2001 (с разрешения автора).",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Четыре родины вэйци — бадук — го — суго.",
+          "href": "/articles/history/chetirerodini/chetirerodini.html",
+          "original": "http://www.fishka.spb.ru/articles/history/chetirerodini/chetirerodini.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Парадоксы суго.",
+          "href": "/articles/history/paradoxi/paradoxi.html",
+          "original": "http://www.fishka.spb.ru/articles/history/paradoxi/paradoxi.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Полувековой юбилей Российского го.",
+          "href": "/articles/history/poluvek/poluvek.html",
+          "original": "http://www.fishka.spb.ru/articles/history/poluvek/poluvek.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Выставка «50 лет Российскому го».",
+          "href": "/articles/history/50letrosgo/exh/exh.html",
+          "original": "http://www.fishka.spb.ru/articles/history/50letrosgo/exh/exh.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Лазарев А.В. История игры Го (Бадук) в России.",
+          "href": "/articles/history/golazarev/golazarev.html",
+          "original": "http://www.fishka.spb.ru/articles/history/golazarev/golazarev.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Медведев В. Европейский Го-Конгресс 2016.",
+          "href": "/articles/history/egc2016/egc2016.html",
+          "original": "http://www.fishka.spb.ru/articles/history/egc2016/egc2016.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Московской Федерации Го — 20 лет!",
+          "href": "/articles/history/gomos20/gomos20.html",
+          "original": "http://www.fishka.spb.ru/articles/history/gomos20/gomos20.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Российскому го – 60 лет!",
+          "href": "/articles/history/go60/go60.html",
+          "original": "http://www.fishka.spb.ru/articles/history/go60/go60.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Питер Шотуэлл. Го — больше, чем игра.",
+          "href": "/articles/history/istoriago/kniga/kniga.html",
+          "original": "http://www.fishka.spb.ru/articles/history/istoriago/kniga/kniga.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Линдер И.М. Фрагменты из книги «Мир шахматных фигур».",
+          "href": "/articles/history/linder/242.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/linder/242.htm",
+          "note": "// М., АО ХГС, 1994, 288 с. (с разрешения автора).",
+          "date": null
+        },
+        {
+          "title": "Авербах Ю.Л. Фрагменты из книги «В поисках истины».",
+          "href": "/articles/history/vpoiskahistini/243.html",
+          "original": "http://www.fishka.spb.ru/articles/history/vpoiskahistini/243.html",
+          "note": "// М., ФиС, 1992, 240 с. (с разрешения автора).",
+          "date": null
+        },
+        {
+          "title": "Авербах Ю.Л. Гроссмейстеры средневековья.",
+          "href": "/articles/history/grossmsrednevek/244.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/grossmsrednevek/244.htm",
+          "note": "// «Знание — сила», № 5, 1966, с.21-23 (с разрешения автора).",
+          "date": null
+        },
+        {
+          "title": "Чащихин В.Д. «В начале были шахматы».",
+          "href": "/articles/history/vnachale/245.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/vnachale/245.htm",
+          "note": "// Фрагменты из книги «История и фундаментальные основы».",
+          "date": null
+        },
+        {
+          "title": "Морозов Ф. Остап мечтал о Петербурге…",
+          "href": "/articles/history/ostap/246.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/ostap/246.htm",
+          "note": "// «Новый Петербург», 2002, № 30.",
+          "date": null
+        },
+        {
+          "title": "Трагедия Александра Алехина.",
+          "href": "/articles/history/bessmertie/247.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/bessmertie/247.htm",
+          "note": "// Фрагменты из книги БЕССМЕРТИЕ. Альманах «Ревизия шахмат», вып. 7 (с разрешения автора).",
+          "date": null
+        },
+        {
+          "title": "Шабуров Ю.Н. Неужели Алехина отравили?",
+          "href": "/articles/history/alehin/248.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/alehin/248.htm",
+          "note": "// “Чудеса и приключения”, 2001, № 11; “24 часа”, 2001, № 51. (из обзора прессы).",
+          "date": null
+        },
+        {
+          "title": "Бронштейн Б. Здесь были Остап, Киса и Владимир Вольфович. О городе Козьмодемьянске, прообразе знаменитых Васюков.",
+          "href": "/articles/history/kozmodemansk/249.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/kozmodemansk/249.htm",
+          "note": "// «Известия», 1995?",
+          "date": null
+        },
+        {
+          "title": "Чашихин В.Д. О шахматных реформах.",
+          "href": "/articles/history/reviziashahmat/2410.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/reviziashahmat/2410.htm",
+          "note": "// Альманах «Ревизия шахмат», вып.19.",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Интервью с Драконом в летающей колеснице.",
+          "href": "/articles/history/drakon/2411.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/drakon/2411.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Чашихин В.Д. Новая фальшивка в публикациях об Алехине.",
+          "href": "/articles/history/falshivka/2412.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/falshivka/2412.htm",
+          "note": "// Альманах «Ревизия шахмат», выпуск 14. (с разрешения автора).",
+          "date": null
+        },
+        {
+          "title": "Чащихин В.Д. Включать ли шахматы в программу ОЛИМПИАД?",
+          "href": "/articles/history/olimpiada/2413.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/olimpiada/2413.htm",
+          "note": "// Альманах «Ревизия шахмат», выпуск 21. (с разрешения автора).",
+          "date": null
+        },
+        {
+          "title": "Дворкин Э. Анатолий Карпов поддерживает русские шахматы.",
+          "href": "/articles/history/karpov/2414.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/karpov/2414.htm",
+          "note": "// СПб, «Телевик» № 3, 20-26 янв. 1997. (обзор прессы).",
+          "date": null
+        },
+        {
+          "title": "Корчицкий С. Алиса сошла бы с ума или Размышления о сёги.",
+          "href": "/articles/history/Alisa/2415.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/Alisa/2415.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Кислюк Л.У. Краткая история японских шахмат сёги.",
+          "href": "/articles/history/segi/2416.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/segi/2416.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Ищенко М.Л. Шахматы — послание неизвестной цивилизации?",
+          "href": "/articles/history/kosmos/2417.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/kosmos/2417.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Афанасьев В. Шахматы — логическая модель Вселенной.",
+          "href": "/articles/history/logmodel/2418.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/logmodel/2418.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Юдасин Л.Г. Тысячелетний миф шахмат.",
+          "href": "/articles/history/1000mif/udasin.html",
+          "original": "http://www.fishka.spb.ru/articles/history/1000mif/udasin.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Восток и Запад за одной доской.",
+          "href": "/articles/history/vostokizapad/2420.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/vostokizapad/2420.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Фирдоуси и его Шах-Намэ.",
+          "href": "/articles/history/shahname/2421.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/shahname/2421.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Массон В.М., Трубицын В.А. Шахматам — 8000 лет?",
+          "href": "/articles/history/shahm8000/2422.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/shahm8000/2422.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Линдер о Линде.",
+          "href": "/articles/history/lind/2423.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/lind/2423.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Нудельман Д.М. Жизнь \"Древности игр...\" с предысторией и постскриптумом.",
+          "href": "/articles/history/drevnostigr/2424.htm",
+          "original": "http://www.fishka.spb.ru/articles/history/drevnostigr/2424.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Анна Стяжкина — шахматная надежда России.",
+          "href": "/articles/history/annastagkina/anna_stagkina.html",
+          "original": "http://www.fishka.spb.ru/articles/history/annastagkina/anna_stagkina.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "часть 1.",
+          "href": "/articles/history/rusnazshahmfigur/part1/part1.html",
+          "original": "http://www.fishka.spb.ru/articles/history/rusnazshahmfigur/part1/part1.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "часть 2.",
+          "href": "/articles/history/rusnazshahmfigur/part2/part2.html",
+          "original": "http://www.fishka.spb.ru/articles/history/rusnazshahmfigur/part2/part2.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "часть 3.",
+          "href": "/articles/history/rusnazshahmfigur/part3/part3.html",
+          "original": "http://www.fishka.spb.ru/articles/history/rusnazshahmfigur/part3/part3.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Нудельман Д.М. Систематический порядок.",
+          "href": "/articles/history/poradok/2427.html",
+          "original": "http://www.fishka.spb.ru/articles/history/poradok/2427.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Нудельман Д.М. Нужна ли фантазия в истории шахмат?",
+          "href": "/articles/history/fantazia/2428.html",
+          "original": "http://www.fishka.spb.ru/articles/history/fantazia/2428.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Нудельман Д.М. О Саргине.",
+          "href": "/articles/history/nudelmanosargine/nudelmanosargine.html",
+          "original": "http://www.fishka.spb.ru/articles/history/nudelmanosargine/nudelmanosargine.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Хан и шах.",
+          "href": "/articles/prikladnieaspecti/hanshah/hanshah.html",
+          "original": "http://www.fishka.spb.ru/articles/prikladnieaspecti/hanshah/hanshah.html",
+          "note": "",
+          "date": null
+        }
+      ]
+    },
+    {
+      "slug": "games",
+      "title": "Игротека",
+      "blurb": "Авторские и редкие комбинационные игры.",
+      "count": 17,
+      "items": [
+        {
+          "title": "Гексофен",
+          "href": "/articles/igroteka/geksofen/35.htm",
+          "original": "http://www.fishka.spb.ru/articles/igroteka/geksofen/35.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Дипломат",
+          "href": "/articles/igroteka/diplomat/36.htm",
+          "original": "http://www.fishka.spb.ru/articles/igroteka/diplomat/36.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Синхрогекс",
+          "href": "/articles/igroteka/sinhrogex/sinhrogex.html",
+          "original": "http://www.fishka.spb.ru/articles/igroteka/sinhrogex/sinhrogex.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Кубус Магикус",
+          "href": "/articles/igroteka/coobus/310.htm",
+          "original": "http://www.fishka.spb.ru/articles/igroteka/coobus/310.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Суго",
+          "href": "/articles/igroteka/sugo/sugo.html",
+          "original": "http://www.fishka.spb.ru/articles/igroteka/sugo/sugo.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Хэй-го",
+          "href": "/articles/igroteka/heygo/312.html",
+          "original": "http://www.fishka.spb.ru/articles/igroteka/heygo/312.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Невские шашки",
+          "href": "/articles/igroteka/nevskie/nevskie.html",
+          "original": "http://www.fishka.spb.ru/articles/igroteka/nevskie/nevskie.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Копорские",
+          "href": "/articles/igroteka/koporskie/koporskie.htm",
+          "original": "http://www.fishka.spb.ru/articles/igroteka/koporskie/koporskie.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Новгородские",
+          "href": "/articles/igroteka/novgorod/novgorod.htm",
+          "original": "http://www.fishka.spb.ru/articles/igroteka/novgorod/novgorod.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Гексореверси",
+          "href": "/articles/igroteka/geksoreversi/geksoreversi.html",
+          "original": "http://www.fishka.spb.ru/articles/igroteka/geksoreversi/geksoreversi.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Кентавриада",
+          "href": "/articles/igroteka/kentavriada/kentavriada.html",
+          "original": "http://www.fishka.spb.ru/articles/igroteka/kentavriada/kentavriada.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Отражение",
+          "href": "/articles/igroteka/otragenie/31.htm",
+          "original": "http://www.fishka.spb.ru/articles/igroteka/otragenie/31.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Стыковка в космосе",
+          "href": "/articles/igroteka/stikovka/32.htm",
+          "original": "http://www.fishka.spb.ru/articles/igroteka/stikovka/32.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Толкучка",
+          "href": "/articles/igroteka/tolkuchka/38.htm",
+          "original": "http://www.fishka.spb.ru/articles/igroteka/tolkuchka/38.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Боровицкие шашки",
+          "href": "/articles/igroteka/borovickie/borovickie.html",
+          "original": "http://www.fishka.spb.ru/articles/igroteka/borovickie/borovickie.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Реверсивные шахматы",
+          "href": "/articles/igroteka/oborotni/311.htm",
+          "original": "http://www.fishka.spb.ru/articles/igroteka/oborotni/311.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "«Дездемона»",
+          "href": "/articles/igroteka/dezdemona/dezdemona.html",
+          "original": "http://www.fishka.spb.ru/articles/igroteka/dezdemona/dezdemona.html",
+          "note": "",
+          "date": null
+        }
+      ]
+    },
+    {
+      "slug": "puzzles",
+      "title": "Головоломки",
+      "blurb": "Головоломки и лингвистические игры.",
+      "count": 17,
+      "items": [
+        {
+          "title": "Рыбинский В.Н. Классификация головоломок.",
+          "href": "/articles/golovolomkilingvo/klassifikacia/41.htm",
+          "original": "http://www.fishka.spb.ru/articles/golovolomkilingvo/klassifikacia/41.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Белов В.Н. Близкая даль.",
+          "href": "/articles/golovolomkilingvo/blizkayadal/book1f.html",
+          "original": "http://www.fishka.spb.ru/articles/golovolomkilingvo/blizkayadal/book1f.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Владимир Глинский. Любопытство за чужой счёт.",
+          "href": "/articles/golovolomkilingvo/lubopitstvo/43.html",
+          "original": "http://www.fishka.spb.ru/articles/golovolomkilingvo/lubopitstvo/43.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Белов В.Н. Рекорды английского языка.",
+          "href": "/articles/golovolomkilingvo/rekordi/44.htm",
+          "original": "http://www.fishka.spb.ru/articles/golovolomkilingvo/rekordi/44.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Белов В.Н. Застольные игры. (Веселье без алкоголя).",
+          "href": "/articles/golovolomkilingvo/zastolnie/45.htm",
+          "original": "http://www.fishka.spb.ru/articles/golovolomkilingvo/zastolnie/45.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Павлинов В.П. Игры со словами.",
+          "href": "/articles/golovolomkilingvo/slova/46.htm",
+          "original": "http://www.fishka.spb.ru/articles/golovolomkilingvo/slova/46.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Генель В. Рождение новой «змеи».",
+          "href": "/articles/golovolomkilingvo/rogdenie/47.htm",
+          "original": "http://www.fishka.spb.ru/articles/golovolomkilingvo/rogdenie/47.htm",
+          "note": "// 1990.",
+          "date": null
+        },
+        {
+          "title": "Калинин А.Т. Впечатления о европейском форуме: ПУТЕШЕСТВИЕ ЗА ГОЛОВОЛОМКАМИ.",
+          "href": "/articles/golovolomkilingvo/puteshestvie/48.htm",
+          "original": "http://www.fishka.spb.ru/articles/golovolomkilingvo/puteshestvie/48.htm",
+          "note": "// Журнал «Наука и жизнь» № 12, 2002 (с разрешения автора и редакции журнала).",
+          "date": null
+        },
+        {
+          "title": "Никонов А. Последнее интервью с Владимиром Рыбинским.",
+          "href": "/articles/golovolomkilingvo/ribinskiy/49.htm",
+          "original": "http://www.fishka.spb.ru/articles/golovolomkilingvo/ribinskiy/49.htm",
+          "note": "// ШАРАДА-100, Бюллетень российского клуба ценителей головоломок «Диоген», г. Тула, апрель-июнь 2003.",
+          "date": null
+        },
+        {
+          "title": "Матч по решению головоломок.",
+          "href": "/articles/golovolomkilingvo/match/410.html",
+          "original": "http://www.fishka.spb.ru/articles/golovolomkilingvo/match/410.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Белов В.Н., Рыбинский В.H. Пленительные головоломки.",
+          "href": "/articles/golovolomkilingvo/plenitelnie/411.htm",
+          "original": "http://www.fishka.spb.ru/articles/golovolomkilingvo/plenitelnie/411.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Белов В.Н. Возвращение в близкую даль.",
+          "href": "/articles/golovolomkilingvo/vovzrachenie/book2.html",
+          "original": "http://www.fishka.spb.ru/articles/golovolomkilingvo/vovzrachenie/book2.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Решения головоломок к первой книге Белова В.Н. «Фантасмагория с головоломками».",
+          "href": "/articles/golovolomkilingvo/reshenie1/solv1.html",
+          "original": "http://www.fishka.spb.ru/articles/golovolomkilingvo/reshenie1/solv1.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Решения головоломок ко второй книге Белова В.Н. «Возвращение в близкую даль».",
+          "href": "/articles/golovolomkilingvo/reshenie2/solv2.html",
+          "original": "http://www.fishka.spb.ru/articles/golovolomkilingvo/reshenie2/solv2.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Тест на сообразительность.",
+          "href": "/articles/golovolomkilingvo/soobrazitelnost/415.html",
+          "original": "http://www.fishka.spb.ru/articles/golovolomkilingvo/soobrazitelnost/415.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Планета головоломок.",
+          "href": "/articles/golovolomkilingvo/planetagolovolomok/planetagolovolomok.html",
+          "original": "http://www.fishka.spb.ru/articles/golovolomkilingvo/planetagolovolomok/planetagolovolomok.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Правила жизни Алисы.",
+          "href": "/articles/golovolomkilingvo/alisa/alisa.html",
+          "original": "http://www.fishka.spb.ru/articles/golovolomkilingvo/alisa/alisa.html",
+          "note": "",
+          "date": null
+        }
+      ]
+    },
+    {
+      "slug": "theory",
+      "title": "Теория",
+      "blurb": "Игровые структуры, стратегии, общая теория игр.",
+      "count": 13,
+      "items": [
+        {
+          "title": "Анфилов Г.Б. Игра и магия.",
+          "href": "/articles/theory/magia/51.htm",
+          "original": "http://www.fishka.spb.ru/articles/theory/magia/51.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Предпосылки создания ОТГ (Общей теории го).",
+          "href": "/articles/theory/otg/52.html",
+          "original": "http://www.fishka.spb.ru/articles/theory/otg/52.html",
+          "note": "// Сообщение на 47-ом Европейском конгрессе го-бадук, СПб, 2003",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Тайна шахмат.",
+          "href": "/articles/theory/tayna/53.htm",
+          "original": "http://www.fishka.spb.ru/articles/theory/tayna/53.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Нилов Г.И., Трубицын В.А. Теория обобщенных стратегий.",
+          "href": "/articles/theory/tos/54.htm",
+          "original": "http://www.fishka.spb.ru/articles/theory/tos/54.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Теория игровых структур.",
+          "href": "/articles/theory/tis/tis.html",
+          "original": "http://www.fishka.spb.ru/articles/theory/tis/tis.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Вариант Джиммерфельда.",
+          "href": "/articles/theory/jimmerfeld/57.htm",
+          "original": "http://www.fishka.spb.ru/articles/theory/jimmerfeld/57.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Полуян П.В., Трубицын В.А. Вторая шахматная революция: шахматы сверхбудущего.",
+          "href": "/articles/theory/shahmatisverhbudushego/58.htm",
+          "original": "http://www.fishka.spb.ru/articles/theory/shahmatisverhbudushego/58.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Николаевич В.Н. О шахматах и не только.",
+          "href": "/articles/theory/oshahmatah/59.htm",
+          "original": "http://www.fishka.spb.ru/articles/theory/oshahmatah/59.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Опорное или конструкционное Го — это смерть классических правил Го!",
+          "href": "/articles/theory/opornoeconstrgo/opornoeconstrgo.html",
+          "original": "http://www.fishka.spb.ru/articles/theory/opornoeconstrgo/opornoeconstrgo.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Золотое сечение в шахматах?",
+          "href": "/articles/theory/zolotoesechenie/zolotoesechenie.html",
+          "original": "http://www.fishka.spb.ru/articles/theory/zolotoesechenie/zolotoesechenie.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Опять треугольник!",
+          "href": "/articles/theory/treugolnik/treugolnik.html",
+          "original": "http://www.fishka.spb.ru/articles/theory/treugolnik/treugolnik.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Борьба с ветряными мельницами.",
+          "href": "/articles/theory/borba/borba.html",
+          "original": "http://www.fishka.spb.ru/articles/theory/borba/borba.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Я вышел в космос или Беседы с Хонинбо в саду камней.",
+          "href": "/articles/theory/honinbo/honinbo.html",
+          "original": "http://www.fishka.spb.ru/articles/theory/honinbo/honinbo.html",
+          "note": "",
+          "date": null
+        }
+      ]
+    },
+    {
+      "slug": "applied",
+      "title": "Прикладные аспекты",
+      "blurb": "Педагогика, медицина, стратегии поведения.",
+      "count": 13,
+      "items": [
+        {
+          "title": "Белов В.Н., Трубицын В.А. Раннее формирование креативности учащихся с применением игровой методики на базе комбинационных настольных игр.",
+          "href": "/articles/prikladnieaspecti/formirovanie/611.htm",
+          "original": "http://www.fishka.spb.ru/articles/prikladnieaspecti/formirovanie/611.htm",
+          "note": "// Сообщение на межвузовской научно-теоретической конференции в ЛГОУ – (V Царскосельские чтения 24-25 апреля 2001).",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Введение в программу «Стратегия».",
+          "href": "/articles/prikladnieaspecti/strategia/strategia.html",
+          "original": "http://www.fishka.spb.ru/articles/prikladnieaspecti/strategia/strategia.html",
+          "note": "// 1990-2015.",
+          "date": null
+        },
+        {
+          "title": "Белов В.Н. Мартин Гарднер — корифей занимательной математики.",
+          "href": "/articles/prikladnieaspecti/gardner/613.htm",
+          "original": "http://www.fishka.spb.ru/articles/prikladnieaspecti/gardner/613.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Лук А. Творческий климат. (1973) / Зак А. Как развивать мышление у детей. (1979)",
+          "href": "/articles/prikladnieaspecti/klimat/614.htm",
+          "original": "http://www.fishka.spb.ru/articles/prikladnieaspecti/klimat/614.htm",
+          "note": "// (с разрешeния ж-ла «Наука и жизнь»).",
+          "date": null
+        },
+        {
+          "title": "Малкин В. Шахматы и психика.",
+          "href": "/articles/prikladnieaspecti/psyho/621.htm",
+          "original": "http://www.fishka.spb.ru/articles/prikladnieaspecti/psyho/621.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Попытка рецензии на книгу Владимира Лефевра - РЕФЛЕКСИЯ.",
+          "href": "/articles/prikladnieaspecti/reflexia/reflexia.html",
+          "original": "http://www.fishka.spb.ru/articles/prikladnieaspecti/reflexia/reflexia.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Восков С.А., Можаев С.И. ТРЕТЬЯ МИРОВАЯ ... ИГРА.",
+          "href": "/articles/prikladnieaspecti/ww3_igra/ww3_igra.html",
+          "original": "http://www.fishka.spb.ru/articles/prikladnieaspecti/ww3_igra/ww3_igra.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Есть контакт.",
+          "href": "/articles/prikladnieaspecti/contact2/contact2.html",
+          "original": "http://www.fishka.spb.ru/articles/prikladnieaspecti/contact2/contact2.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Дьюдени А.К. О разуме, машинах и метафизике.",
+          "href": "/articles/prikladnieaspecti/orazume/orazume.html",
+          "original": "http://www.fishka.spb.ru/articles/prikladnieaspecti/orazume/orazume.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Евгений Скляревский. Страшная сказка про Биоморфа.",
+          "href": "/articles/prikladnieaspecti/scazka/scazka.html",
+          "original": "http://www.fishka.spb.ru/articles/prikladnieaspecti/scazka/scazka.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Вл. Глинский В мире биоморфов.",
+          "href": "/articles/theory/biomorfi/biomorfi.html",
+          "original": "http://www.fishka.spb.ru/articles/theory/biomorfi/biomorfi.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Дьюдени А.К. Моделирование эволюции в мире биоморфов.",
+          "href": "/articles/theory/modelir/modelir.html",
+          "original": "http://www.fishka.spb.ru/articles/theory/modelir/modelir.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Как быстро освоить игру го?",
+          "href": "/articles/prikladnieaspecti/kakosvoitgo/kakosvoitgo.html",
+          "original": "http://www.fishka.spb.ru/articles/prikladnieaspecti/kakosvoitgo/kakosvoitgo.html",
+          "note": "",
+          "date": null
+        }
+      ]
+    },
+    {
+      "slug": "reviews",
+      "title": "Рецензии",
+      "blurb": "Критические очерки и разборы книг.",
+      "count": 23,
+      "items": [
+        {
+          "title": "Трубицын В.А. Последняя тайна Киммерийских арабесок",
+          "href": "/articles/recenzii/arabeski/71.htm",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/arabeski/71.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Я спросил у Бога…",
+          "href": "/articles/recenzii/sprosil/72.htm",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/sprosil/72.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Собрать бы шашки — да и в печь!",
+          "href": "/articles/recenzii/vpech/73.htm",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/vpech/73.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Интервью с Драконом в летающей колеснице.",
+          "href": "/articles/recenzii/drakon/74.htm",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/drakon/74.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Полет соколов и дельфинов над шахматной доской.",
+          "href": "/articles/recenzii/delfini/75.htm",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/delfini/75.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Сага о столбовых шахматах.",
+          "href": "/articles/recenzii/stolbovie/76.html",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/stolbovie/76.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Новая немецкая книга об истории шахмат.",
+          "href": "/articles/recenzii/nemeckayakniga/77.html",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/nemeckayakniga/77.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Психосенсорный шабаш в подземельях истины или История шахмат в изложении нумерологов.",
+          "href": "/articles/recenzii/shabash/78.html",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/shabash/78.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Нудельман Д.М. Рецензия на раздел «Библиография шахматной литературы».",
+          "href": "/articles/recenzii/bibliografia/79.html",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/bibliografia/79.html",
+          "note": "// в книге Линдер И.М. Шахматная энциклопедия.",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Двухтысячелетний юбилей заблуждений.",
+          "href": "/articles/recenzii/zablugdenia/710.htm",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/zablugdenia/710.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Шахматы на перепутье или наука за гранью фантастики.",
+          "href": "/articles/recenzii/zagranyu/711.htm",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/zagranyu/711.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Путь к истине в лабиринте Деловых шахмат с помощью Ноева ковчега.",
+          "href": "/articles/recenzii/istina/712.htm",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/istina/712.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Игра втроём и «на троих».",
+          "href": "/articles/recenzii/igravtroem/713.html",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/igravtroem/713.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Песнь о великих гроссмейстерах.",
+          "href": "/articles/recenzii/grossmeisteri/714.htm",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/grossmeisteri/714.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Больной скорее жив.",
+          "href": "/articles/recenzii/pacient/715.htm",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/pacient/715.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Игра в шашки под ковром.",
+          "href": "/articles/recenzii/shashkipodkovrom/716.htm",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/shashkipodkovrom/716.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Рецензия на статью Трубицына В.А.",
+          "href": "/articles/recenzii/avtorecenzia/717.html",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/avtorecenzia/717.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Григорий «Гест». Порядок и хаос.",
+          "href": "/articles/recenzii/poradokihaos/poradokihaos.html",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/poradokihaos/poradokihaos.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Зеркальная рецензия.",
+          "href": "/articles/recenzii/zerkrec/zerkrec.html",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/zerkrec/zerkrec.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Прощайте, шахматы!",
+          "href": "/articles/recenzii/proshah/proshah.html",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/proshah/proshah.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Платье голого короля? Вуаля!",
+          "href": "/articles/recenzii/recknigkasp/recknigkasp.html",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/recknigkasp/recknigkasp.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Супершахматы В. Данилова.",
+          "href": "/articles/recenzii/supershahmati/supershahmati.html",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/supershahmati/supershahmati.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Рецензия на статью Сергея Барсука «Недостающее звено: что дало толчок развитию игры го в СССР? Или кто?»",
+          "href": "/articles/recenzii/gozveno/gozveno.html",
+          "original": "http://www.fishka.spb.ru/articles/recenzii/gozveno/gozveno.html",
+          "note": "",
+          "date": null
+        }
+      ]
+    },
+    {
+      "slug": "journal",
+      "title": "Журнал в журнале",
+      "blurb": "Стихи, эссе и соседние сюжеты.",
+      "count": 14,
+      "items": [
+        {
+          "title": "Борис Алмазов. Штурм Зимнего.",
+          "href": "/articles/journal/history/shturm/811.htm",
+          "original": "http://www.fishka.spb.ru/articles/journal/history/shturm/811.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Герман Дробиз. Страна Московия.",
+          "href": "/articles/journal/history/moskovia/812.htm",
+          "original": "http://www.fishka.spb.ru/articles/journal/history/moskovia/812.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Донченко Д.Б. Борьба с умом.",
+          "href": "/articles/journal/history/borba/813.htm",
+          "original": "http://www.fishka.spb.ru/articles/journal/history/borba/813.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Маковецкий С.Б. Правда о Дантесе.",
+          "href": "/articles/journal/history/dantes/815.htm",
+          "original": "http://www.fishka.spb.ru/articles/journal/history/dantes/815.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Светогоров Д.А. Заячья лихоманка.",
+          "href": "/articles/journal/history/lihomanka/816.htm",
+          "original": "http://www.fishka.spb.ru/articles/journal/history/lihomanka/816.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Светогоров Д.А. Педализм и педальность.",
+          "href": "/articles/journal/history/pedalizm/817.htm",
+          "original": "http://www.fishka.spb.ru/articles/journal/history/pedalizm/817.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Омар Хайам. Стихи о шахматах.",
+          "href": "/articles/journal/hayam/82.htm",
+          "original": "http://www.fishka.spb.ru/articles/journal/hayam/82.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. О возможности гармонизации русского алфавита.",
+          "href": "/articles/journal/garmonizacia/83.htm",
+          "original": "http://www.fishka.spb.ru/articles/journal/garmonizacia/83.htm",
+          "note": "// Сообщение на III Всероссийской научной конференции «Язык образования и образование языка»",
+          "date": null
+        },
+        {
+          "title": "Шалаев Н. (сост). Поэты и шахматы.",
+          "href": "/articles/journal/poeti/84.htm",
+          "original": "http://www.fishka.spb.ru/articles/journal/poeti/84.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Чемпионы. 8.7. Матвеева Т. Стихи о головоломках.",
+          "href": "/articles/journal/chempioni/86.html",
+          "original": "http://www.fishka.spb.ru/articles/journal/chempioni/86.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "1 Вступление.",
+          "href": "/articles/journal/vstuplenie/881.html",
+          "original": "http://www.fishka.spb.ru/articles/journal/vstuplenie/881.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Носовский А.М. Стихи о японских шахматах сёги.",
+          "href": "/articles/journal/segi/89.htm",
+          "original": "http://www.fishka.spb.ru/articles/journal/segi/89.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Квадрат и круг (стихи о Го).",
+          "href": "/articles/journal/kvadratikrug/stihiogo.html",
+          "original": "http://www.fishka.spb.ru/articles/journal/kvadratikrug/stihiogo.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Рождённый в СССР.",
+          "href": "/articles/journal/cccp/cccp.html",
+          "original": "http://www.fishka.spb.ru/articles/journal/cccp/cccp.html",
+          "note": "",
+          "date": null
+        }
+      ]
+    },
+    {
+      "slug": "other",
+      "title": "Другие статьи",
+      "blurb": "Материалы вне основных рубрик.",
+      "count": 6,
+      "items": [
+        {
+          "title": "Валерий Трубицын. Анатомия Януса.",
+          "href": "/articles/prefir/anatomiayanusa/yanus.html",
+          "original": "http://www.fishka.spb.ru/articles/prefir/anatomiayanusa/yanus.html",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Нудельман Д.М. Библиография шашечных игр (шашки-64, шашки-100 и аналогичные игры на тетрагональных досках).",
+          "href": "/articles/bibliografia/shashki/101.htm",
+          "original": "http://www.fishka.spb.ru/articles/bibliografia/shashki/101.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Линдер И.М. О библиографии шахматной литературы.",
+          "href": "/articles/bibliografia/shahmati/102.htm",
+          "original": "http://www.fishka.spb.ru/articles/bibliografia/shahmati/102.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Линдер И.М. Шахматные библиотеки.",
+          "href": "/articles/bibliografia/biblioteki/103.htm",
+          "original": "http://www.fishka.spb.ru/articles/bibliografia/biblioteki/103.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. О библиографическом указателе шахматной литературы Сахарова Н.И.",
+          "href": "/articles/bibliografia/saharovni/104.htm",
+          "original": "http://www.fishka.spb.ru/articles/bibliografia/saharovni/104.htm",
+          "note": "",
+          "date": null
+        },
+        {
+          "title": "Трубицын В.А. Вводная статья.",
+          "href": "/articles/collecting/vvodnaya/11.1.htm",
+          "original": "http://www.fishka.spb.ru/articles/collecting/vvodnaya/11.1.htm",
+          "note": "",
+          "date": null
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "20-летний юбилей «Ассоциации Фишка.Ру».",
+      "href": "http://www.fishka.spb.ru/articles/news/20230410.html",
+      "date": "10.04.2023",
+      "external": false
+    },
+    {
+      "title": "60-летний юбилей Российского го",
+      "href": "http://www.fishka.spb.ru/articles/news/20251221.html",
+      "date": "19-21.12.2025",
+      "external": false
+    },
+    {
+      "title": "Фестиваль ДВИЖ «УМ+»",
+      "href": "http://www.fishka.spb.ru/articles/news/20251129.html",
+      "date": "29.11.2025",
+      "external": false
+    },
+    {
+      "title": "Выставка Трубицына В.А. «Игры третьего тысячелетия»",
+      "href": "http://www.fishka.spb.ru/articles/news/20250323.html",
+      "date": "23.03.2025",
+      "external": false
+    },
+    {
+      "title": "Фестиваль ДВИЖ «УМ+»",
+      "href": "http://www.fishka.spb.ru/articles/news/20250318.html",
+      "date": "18.03.2025",
+      "external": false
+    },
+    {
+      "title": "Книги Трубицына В.А. приобретаем в интернет-магазине «Игра ума»",
+      "href": "http://www.fishka.spb.ru/articles/news/20250101.html",
+      "date": "01.01.2025",
+      "external": false
+    },
+    {
+      "title": "«МузеУме»",
+      "href": "https://vk.com/wall-20582345_279",
+      "date": "— Музее головоломок в Петербурге",
+      "external": true
+    },
+    {
+      "title": "Праздничный ПазлДей и Встреча Друзей МузеУма Головоломок.",
+      "href": "http://www.fishka.spb.ru/articles/news/20231218.html",
+      "date": "18.12.2023",
+      "external": false
+    },
+    {
+      "title": "Клуб интеллектуальных игр «Панда» в Москве.",
+      "href": "http://www.fishka.spb.ru/articles/news/20231004.html",
+      "date": "04.10.2023",
+      "external": false
+    },
+    {
+      "title": "МузеУм Головоломок.",
+      "href": "http://www.fishka.spb.ru/articles/news/20230918.html",
+      "date": "18.09.2023",
+      "external": false
+    },
+    {
+      "title": "Загрузка материалов из облачного сервиса.",
+      "href": "http://www.fishka.spb.ru/articles/news/20230218.html",
+      "date": "18.02.2023",
+      "external": false
+    }
+  ],
+  "stats": {
+    "sections": 9,
+    "articles": 164,
+    "news": 11
+  }
+}

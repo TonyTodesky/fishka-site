@@ -1,0 +1,27 @@
+---
+import { primaryNav, withBase } from "../lib/site";
+const base = (import.meta.env.BASE_URL || "/").replace(/\/$/, "");
+const path = Astro.url.pathname.replace(/\/$/, "") || base || "/";
+---
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href={withBase("/")}>
+      <b>Фишка.Ру</b>
+      <span>с 2003 · СПб</span>
+    </a>
+    <nav class="nav" aria-label="Основное меню">
+      {
+        primaryNav.map((item) => (
+          <a href={withBase(item.href)} aria-current={path === withBase(item.href) ? "page" : undefined}>
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+    <form class="search-form" action={withBase("/search")} method="get">
+      <input type="search" name="q" placeholder="Поиск по архиву" aria-label="Поиск по архиву" />
+      <button type="submit">Найти</button>
+    </form>
+  </div>
+</header>

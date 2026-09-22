@@ -1,0 +1,34 @@
+---
+import { secondaryNav, withBase } from "../lib/site";
+---
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <div class="kicker">Ассоциация Фишка.Ру</div>
+      <p>Архив теории, истории и авторских игр. Автор сайта — игротехник Трубицын В.А., Санкт-Петербург.</p>
+    </div>
+    <div>
+      <div class="kicker">Разделы</div>
+      <p>
+        {secondaryNav.map((item) => (
+          <>
+            <a href={withBase(item.href)}>{item.label}</a>
+            <br />
+          </>
+        ))}
+      </p>
+    </div>
+    <div>
+      <div class="kicker">Контакты</div>
+      <p>
+        <a href="mailto:trubicin@fishka.spb.ru">trubicin@fishka.spb.ru</a><br />
+        +7 (921) 183-44-61<br />
+        198330, Санкт-Петербург, до востребования
+      </p>
+    </div>
+  </div>
+  <div class="wrap tiny" style="margin-top:24px">
+    Материалы 2003–2026. Новый интерфейс сохраняет исходный корпус текстов.
+  </div>
+</footer>
